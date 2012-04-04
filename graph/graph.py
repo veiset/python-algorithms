@@ -105,6 +105,8 @@ class Graph():
         name   -- name of the vertex
         '''
 
+        return self.vertex(name)
+
     def edges(self):
         '''
         edges()
